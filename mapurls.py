@@ -400,6 +400,9 @@ def main(args):
 
 if __name__ == '__main__':
 
-    import sys
-    main(sys.argv)
+    # Version with Command-Line
+    # import sys
+    # main(sys.argv)
 
+    # Version without Command-Line
+    mapurls("http://adlnet.gov", save=False, verbose=False)

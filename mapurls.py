@@ -401,8 +401,8 @@ def main(args):
 if __name__ == '__main__':
 
     # Version with Command-Line
-    # import sys
-    # main(sys.argv)
+    import sys
+    main(sys.argv)
 
     # Version without Command-Line
-    mapurls("http://adlnet.gov", save=False, verbose=False)
+    # mapurls("http://adlnet.gov", save=False, verbose=False)

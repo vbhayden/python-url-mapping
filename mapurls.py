@@ -45,7 +45,7 @@ def is_attachment(url):
     return False
 
 
-def search_all_urls(parent_root: str, save=False, verbose=False) -> dict:
+def mapurls(parent_root: str, save=False, verbose=False) -> dict:
     """
     Hunt down every link accessible on a page, mapping the available links and returning a dictionary
     with each of those links, what they can access, and what can access them.
@@ -392,7 +392,7 @@ def main(args):
             print("Starting URL map for " + url_to_check + " ... ")
 
         # Check if we should save this
-        search_all_urls(parent_root=url_to_check, save=should_save, verbose=be_verbose)
+        mapurls(parent_root=url_to_check, save=should_save, verbose=be_verbose)
 
     else:
         print("You must provide a URL as the first argument.")

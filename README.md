@@ -6,7 +6,7 @@ There isn't much to install as this is a single Python 3 script.  If you need py
 
 This script does use two libraries: BeautifulSoup and Requests.  If you are comfortable using pip, you can use:
 ```
-pip install beautifulsoup4
+pip install bs4
 pip install requests
 ```
 
